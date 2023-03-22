@@ -51,6 +51,7 @@
         printf("Valor para poupanca: R$ %.2f\n", valorPoupanca);
         
         return;
+        
 }
 
 //4.  Escreva um algoritmo para ler o nome e a idade de uma pessoa, e exibir quantos dias de vida ela possui. Considere sempre anos completos, e que um ano possui 365 dias. Ex: uma pessoa com 19 anos possui 6935 dias de vida; veja um exemplo de saída: MARIA, VOCÊ JÁ VIVEU 6935 DIAS 
@@ -292,10 +293,19 @@
 
 //17. Alguns países medem temperaturas em graus Celsius, e outros em graus Fahrenheit. Faça um algoritmo para ler uma temperatura Celsius e imprimi-Ia em Fahrenheit (pesquise como fazer este tipo de conversão). 
     void questao17() {
+        //(1 °C × 9/5) + 32 = 33,8 °F
+        float celsius, fahrenheit;
 
+        printf("Insira a temperatura em Celsius: ");
+        scanf("%f", &celsius);
+
+        fahrenheit = 32 + (1.8 * celsius);
+        printf("Temperatura em Fahrenheit: %.2f \n", fahrenheit);
+
+        return;
     }
 
-//18. A empresa Hipotheticus paga R$10,00 por hora normal trabalhada, e R$15,00 por hora extra. Faça um algo-ritmo para calcular e imprimir o salário bruto e o salário líquido de um determinado funcionário. Considere que o salário líquido é igual ao salário bruto descontando-se 10% de impostos. 
+//18. A empresa Hipotheticus paga R$10,00 por hora normal trabalhada, e R$15,00 por hora extra. Faça um algoritmo para calcular e imprimir o salário bruto e o salário líquido de um determinado funcionário. Considere que o salário líquido é igual ao salário bruto descontando-se 10% de impostos. 
     void questao18() {
 
     }

@@ -3,7 +3,7 @@
 #include <math.h>
 #include <locale.h>
 
-//1.  FaÃ§a um algoritmo que leia dois valores A e B e imprima o maior deles. 
+//1.  Faça um algoritmo que leia dois valores A e B e imprima o maior deles. 
     void questao01(){
         float a, b;
 
