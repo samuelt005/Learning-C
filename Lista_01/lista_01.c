@@ -305,107 +305,14 @@
         return;
     }
 
-//18. A empresa Hipotheticus paga R$10,00 por hora normal trabalhada, e R$15,00 por hora extra. Faça um algoritmo para calcular e imprimir o salário bruto e o salário líquido de um determinado funcionário. Considere que o salário líquido é igual ao salário bruto descontando-se 10% de impostos. 
-    void questao18() {
-
-    }
-
-//
-    void questao19() {
-}
-
-//
-    void questao20() {
-}
-
-//
-    void questao21() {
-}
-
-//
-    void questao22() {
-}
-
-//
-    void questao23() {
-}
-
-//
-    void questao24() {
-}
-
-//
-    void questao25() {
-}
-
-//
-    void questao26() {
-}
-
-//
-    void questao27() {
-}
-
-//
-    void questao28() {
-}
-
-//
-    void questao29() {
-}
-
-//
-    void questao30() {
-}
-
-//
-    void questao31() {
-}
-
-//
-    void questao32() {
-}
-
-//
-    void questao33() {
-}
-
-//
-    void questao34() {
-}
-
-//
-    void questao35() {
-}
-
-//
-    void questao36() {
-}
-
-//
-    void questao37() {
-}
-
-//
-    void questao38() {
-}
-
-//
-    void questao39() {
-}
-
-//
-    void questao40() {
-}
-
 
 int main() {
     while (1)
     {
         int i, selecao;    
-        void (*questao[40])() = {questao01, questao02, questao03, questao04, questao05, questao06, questao07, questao08, questao09, questao10, questao11, questao12, questao13, questao14, questao15, questao16, questao17, questao18, questao19, questao20, questao21, questao22, questao23, questao24, questao25, questao28, questao29, questao30, questao31, questao32, questao33, questao34, questao35, questao36, questao37, questao38, questao39, questao40};
+        void (*questao[17])() = {questao01, questao02, questao03, questao04, questao05, questao06, questao07, questao08, questao09, questao10, questao11, questao12, questao13, questao14, questao15, questao16, questao17};
 
-        printf ("\nDigite o numero da questao (de 1 a 40): ");
+        printf ("\nDigite o numero da questao (de 1 a 17): ");
         scanf("%d", &selecao);
 
         for (i = 0; i < 40; i++) {
