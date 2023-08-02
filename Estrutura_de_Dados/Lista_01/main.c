@@ -60,7 +60,7 @@ void Exercicio3() {
 
     double vetor[tamanho];
     for (int i = 0; i < tamanho; i++) {
-        printf("Digite o elemento da posição %i do vetor:\n", i);
+        printf("Digite o elemento da posição %i do vetor: ", i);
         scanf("%lf", &vetor[i]);
     }
 
@@ -68,20 +68,11 @@ void Exercicio3() {
 }
 
 //A multiplicação de dois números inteiros pode ser feita através de somas sucessivas. Proponha um algoritmo recursivo MultipRec(n1,n2) que calcule a multiplicação de dois inteiros.
-int MultipRec (int n1, int n2) {
-    if (n1 == 0 || n2 == 0) {
+int MultipRec(int n1, int n2) {
+    if (n2 == 0) {
         return 0;
-    }
-    if (n2 == 1) {
-        return n1;
-    }
-    if (n2 == -1) {
-        return -n1;
-    }
-    if (n2 > 0) {
-        return n1 + MultipRec(n1, n2 - 1);
     } else {
-        return -n1 + MultipRec(n1, n2 + 1);
+        return (n1 + MultipRec(n1, n2 - 1));
     }
 }
 
@@ -92,11 +83,15 @@ void Exercicio4() {
     printf("Digite o segundo número: ");
     scanf("%d", &n2);
 
-    printf("Resultado da multiplicação: %d\n", MultipRec(n1, n2));
+    printf("Resultado da multiplicação de %d x %d 4= %d\n", n1, n2, MultipRec(n1, n2));
 }
 
 //Escreva uma função recursiva que calcule o número de grupos distintos com k pessoas que podem ser formados a partir de um conjunto de n pessoas. A definição abaixo da função Comb(n,k) define as regras:
 int Comb(int k, int n) {
+    if (k > n) {
+        printf("Quantidade de grupos é maior que quantidade de pessoas!\n");
+        return 1;
+    }
     if (k == 1) {
         return n;
     } else if (k == n) {
@@ -118,11 +113,12 @@ void Exercicio5() {
 }
 
 //Escreva uma função recursiva que calcule a soma dos dígitos de um número inteiro. Por exemplo, se a entrada for 123, a saída deverá ser 1+2+3 = 6
-int SomaDigitos(int i) {
+int SomaDecomposicao(int i) {
     if (i < 10) {
         return i;
+    } else {
+        return (i % 10 + SomaDecomposicao(i / 10));
     }
-    return i % 10 + SomaDigitos(i / 10);
 }
 
 void Exercicio6() {
@@ -130,17 +126,17 @@ void Exercicio6() {
     printf("Digite um número inteiro: ");
     scanf("%d", &numero);
 
-    printf("A soma dos dígitos é: %d\n", SomaDigitos(numero));
+    printf("A soma dos dígitos é: %d\n", SomaDecomposicao(numero));
 }
 
-
+//Main
 int main() {
     setlocale(LC_ALL,"");
     int running = 1;
 
-    while (running = 1) {
+    while (running == 1) {
         int selecao = 0;
-        printf("Digite o número do exercício que deseja resolver:");
+        printf("Digite o número do exercício que deseja resolver (1 a 6):");
         scanf("%i", &selecao);
 
         switch (selecao) {
