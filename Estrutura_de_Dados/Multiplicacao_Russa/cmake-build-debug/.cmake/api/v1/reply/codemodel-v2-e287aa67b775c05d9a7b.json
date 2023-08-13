@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Multiplicacao_Russa",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Multiplicacao_Russa::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Multiplicacao_Russa-Debug-08368bb8485001a0becd.json",
+					"name" : "Multiplicacao_Russa",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Samuel/Desktop/Learning-C/Estrutura_de_Dados/Multiplicacao_Russa/cmake-build-debug",
+		"source" : "C:/Users/Samuel/Desktop/Learning-C/Estrutura_de_Dados/Multiplicacao_Russa"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
