@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/funcoes/criaLista.c" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/funcoes/exibeLista.c" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/funcoes/insereFinal.c" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/funcoes/insereInicio.c" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/funcoes/insereMeio.c" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/funcoes/liberaLista.c" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/funcoes/ordenaLista.c" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/funcoes/removeFinal.c" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/funcoes/removeInicio.c" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/funcoes/removeMeio.c" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/main.c" charset="ISO-8859-1" />
+  </component>
+</project>
