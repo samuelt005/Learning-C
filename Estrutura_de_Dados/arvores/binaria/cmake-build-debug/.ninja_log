@@ -1,0 +1,19 @@
+# ninja log v5
+3	237	7205846729464739	CMakeFiles/binaria.dir/main.c.obj	fa01eb0fc94cd676
+239	458	7205846731612692	binaria.exe	ea1ff3b908bf3162
+2	111	7205847149267801	CMakeFiles/binaria.dir/main.c.obj	fa01eb0fc94cd676
+112	278	7205847150871200	binaria.exe	ea1ff3b908bf3162
+3	98	7205847433079203	CMakeFiles/binaria.dir/main.c.obj	fa01eb0fc94cd676
+99	222	7205847434268239	binaria.exe	ea1ff3b908bf3162
+2	90	7205848478736968	CMakeFiles/binaria.dir/main.c.obj	fa01eb0fc94cd676
+90	191	7205848479673637	binaria.exe	ea1ff3b908bf3162
+3	99	7205850590061630	CMakeFiles/binaria.dir/main.c.obj	fa01eb0fc94cd676
+99	210	7205850591089226	binaria.exe	ea1ff3b908bf3162
+3	112	7205850825324579	CMakeFiles/binaria.dir/main.c.obj	fa01eb0fc94cd676
+112	216	7205850826311201	binaria.exe	ea1ff3b908bf3162
+2	95	7205851704687232	CMakeFiles/binaria.dir/main.c.obj	fa01eb0fc94cd676
+95	193	7205851705613859	binaria.exe	ea1ff3b908bf3162
+2	93	7205854171886543	CMakeFiles/binaria.dir/main.c.obj	fa01eb0fc94cd676
+94	230	7205854173211768	binaria.exe	ea1ff3b908bf3162
+2	83	7205854705871051	CMakeFiles/binaria.dir/main.c.obj	fa01eb0fc94cd676
+84	179	7205854706777954	binaria.exe	ea1ff3b908bf3162
