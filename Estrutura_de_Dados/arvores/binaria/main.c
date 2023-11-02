@@ -22,7 +22,6 @@ ArvBin *criaArvBin() {
     return raiz;
 }
 
-// TODO corrigir função pois não esta funcionando
 void insereArvBin(ArvBin *raiz) {
     no *novo = (no *) malloc(sizeof(no));
     char input[10], *endInput;
@@ -31,6 +30,7 @@ void insereArvBin(ArvBin *raiz) {
         printf("Sem memória disponível!\n");
         exit(0);
     }
+
     printf("Novo elemento: ");
 
     fgets(input, sizeof(input), stdin);
@@ -41,9 +41,6 @@ void insereArvBin(ArvBin *raiz) {
         sleep(2);
         return;
     }
-
-    printf("%d", novo->num);
-    sleep(2);
 
     novo->dir = NULL;
     novo->esq = NULL;
@@ -118,6 +115,7 @@ void removeNoFolha(ArvBin *raiz) {
                     free(atual);
                     return;
                 }
+                // TODO adicionar lógica para remover item no meio da árvore
             }
             if (toDelete > atual->num) {
                 atual = atual->dir;
@@ -132,11 +130,12 @@ void removeNoFolha(ArvBin *raiz) {
 int main() {
     setlocale(LC_ALL, "Portuguese");
     int running = 1;
+
+    ArvBin *raiz = criaArvBin();
+
     while (running == 1) {
         char input[10], *endInput;
         int selector;
-
-        ArvBin *raiz = criaArvBin();
 
         system("cls"); //Limpeza do terminal
 
